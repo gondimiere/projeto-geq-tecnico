@@ -162,6 +162,12 @@ decomp, painel, dist = D["decomp"], D["painel"], D["dist"]
 # ---------------------------------------------------------------------------
 # Cabecalho
 # ---------------------------------------------------------------------------
+st.markdown(
+    '<a href="https://gondimiere.github.io/projeto-geq/" target="_blank" '
+    'style="font-size:13px;color:#2a78d6;text-decoration:none;font-weight:600;">'
+    "&larr; Voltar para o resumo executivo</a>",
+    unsafe_allow_html=True,
+)
 st.markdown("# Cadeia de preços do GLP no Brasil")
 st.markdown(
     '<p style="font-size:15px;color:#52514e;margin-top:0;max-width:76ch;">'
