@@ -1,0 +1,16 @@
+[theme]
+# Modo claro assumido de forma deliberada: o painel e feito para projecao
+# num pitch presencial e para impressao. As cores dos graficos foram
+# escolhidas e validadas contra esta superficie clara.
+base = "light"
+primaryColor = "#2a78d6"
+backgroundColor = "#f9f9f7"
+secondaryBackgroundColor = "#fcfcfb"
+textColor = "#0b0b0b"
+font = "sans serif"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
